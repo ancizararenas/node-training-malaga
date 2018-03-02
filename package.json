@@ -22,9 +22,7 @@
   },
   "homepage": "https://github.com/ancizararenas/node-training-malaga#readme",
   "dependencies": {
-    "os": "^0.1.1",
-    "path": "^0.12.7",
-    "util": "^0.10.3"
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "eslint": "^4.18.1",
