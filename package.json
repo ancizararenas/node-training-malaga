@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node bin/server.js",
+    "start": "node bin/server.js | bunyan",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/ancizararenas/node-training-malaga#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "bunyan": "^1.8.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.10",
+    "body-parser": "^1.15.0"
   }
 }
