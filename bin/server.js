@@ -1,4 +1,3 @@
-const app = express();
 const log = require('../middleware/logger').child({
     level: 'info',
     component: '[BIN-SERVER]'
@@ -8,10 +7,9 @@ const router = express.Router();
 const routes = require('../lib/routes.js');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-
 const PORT = process.env.PORT || 3000;
 const MONGO_URI = process.env.MONGO || 'mongodb://localhost:27017/nodecourse';
-
+const app = express();
 const initDBConnection = () => {
     log.info('Preparing to initiate our DB connection...');
     mongoose.connect(MONGO_URI);
