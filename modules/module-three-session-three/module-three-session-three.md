@@ -7,7 +7,7 @@ Last week we began trying to correctly structure our application and began to mo
 4. Registering routes and exporting them using Module exports
 5. Environment variables - how to use and declare
 
-We also had homework set where you were to carry out simple implementations of the following :
+<!-- We also had homework set where you were to carry out simple implementations of the following : -->
 1. Using built in 'os' module in Node.js
 2. Using built in 'fs' module in Node.js
 3. Using built in 'path' module in Node.js
